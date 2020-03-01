@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTER PAGE</title>
+	<style type="text/css">
+		button {
+				  background-color: teal; /* Green */
+				  border: none;
+				  color: white;
+				  padding: 15px 32px;
+				  text-align: center;
+				  text-decoration: none;
+				  display: inline-block;
+				  font-size: 16px;
+				  border-radius: 10%;
+				}
+			div{
+				  width: 40%;
+				  border: 15px solid green;
+				  padding: 30px;
+				  margin: 20px;
+				  text-align: center;
+				  margin-left: 25%;
+				  margin-right: 25%;
+				  background-color: greenyellow;
+				  margin-top: 3%;
+
+			}
+			body{
+				  background-image: url("Kush.jpg");
+                  background-position: center; 
+
+
+			}
+		
+	</style>
+</head>
+<body>
+	<form action="register" method="post">
+	   <div>
+	   	<h1 style="color: purple; font-family:  Comic Sans MS ,serif ; font-size: 50px"> !!SIGN UP HERE!!</h1>
+	   	<p> First Name:
+	   	<input type="text" name="FirstName" placeholder="First Name"> &nbsp; &nbsp; &nbsp; Last Name : 
+	    <input type="text" name="LastName" placeholder="Last Name"></p>
+	    <p> User Name:
+	   	<input type="text" name="UserName" placeholder="User Name"></p>
+	   	<p> Mobile Number:
+	   	<input type="text" name="MobileNo" placeholder="Mobile Number" maxlength="10"></p>
+	   	<p> Email Id:
+	   	<input type="Email" name="Email" placeholder="Email Id"></p>
+	   	<p> Date Of Bith:
+	   	<input type="Date" name="DOB" placeholder="Date Of Bith"></p>
+	   	<p>Gender :
+		  <input type="radio" id="male" name="gender" value="male">
+		  <label for="male">Male</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  <input type="radio" id="female" name="gender" value="female">
+		  <label for="female">Female</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  <input type="radio" id="other" name="gender" value="other">
+		  <label for="other">Other</label><br><br></p>
+	    <p> Enter Password:
+	    <input type="password" name="Password" placeholder="Password" maxlength="10"></p>
+	  	<p> Confirm Password:
+	   	<input type="text" name="ConfirmPassword" placeholder="Confirm Password" maxlength="10"></p>
+	   	<button type="submit"  value="Submit">SignUp</button><br><br>
+	   	<a href="Login.html">Already have an account! LogIn here!!</a>
+
+
+		
+
+
+	</div>  
+    </form>
+</body>
+</html>
